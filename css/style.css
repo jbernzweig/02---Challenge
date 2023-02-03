@@ -1,4 +1,24 @@
-* { 
-    box-sizing: border-box;
-}
+/* UNIVERSAL  */
 
+/* COLOR PALETTE  */
+
+/* BODY  */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:blue;
+    background-color: white;
+    line-height: 2;
+}
+/* HEADER MARGIN */
+
+/* PARAGRAPH MARGIN  */
+
+/* HEADER BASIC DESIGN  */
+
+/* HEADER H1 BASIC DESIGN  */
+
+/* NAV BASIC DESIGN  */
+
+/* NAV A BASIC DESIGN  */
