@@ -1,6 +1,7 @@
 /* UNIVERSAL  */
-
-/* COLOR PALETTE  */
+*{
+    margin: 0;
+}
 
 /* BODY  */
 body {
@@ -8,7 +9,7 @@ body {
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: black;
-    background-color: white;
+    /* background-color: white; */
     line-height: 2;
 }
 /* HEADER MARGIN */
@@ -32,7 +33,7 @@ header {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-color: orange;
+    background-color: aquamarine;
 }
 /* HEADER H1 BASIC DESIGN  */
 header h1 {
@@ -63,17 +64,31 @@ main {
 
 /* HERO BANNER DESIGN  */
 .hero-banner {
-    background-image: url(Assets/sunset.jpeg);
-  }
-
-.hero-banner {
+    background-color: slategray;
+    background-image: url(../Assets/02-hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    /* background-blend-mode: soft-light; */
+    min-height: 15px;
+    color: slategray;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+}
+
+.hero-banner h1 {
+    background-color: aquamarine;
+    color: black;
+    margin: 0;
+    padding: 15px;
 }
 /* ABOUT SECTION  */
 .about {
-    background-color: aqua;
+    /* background-color: white; */
     flex-direction: row;
-    flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: flex-start;
     align-items: flex-end;
     padding: 10px;
@@ -81,9 +96,26 @@ main {
 
 /* WORK SECTION  */
 .work {
-    background-color: purple;
-    display: flex;
+    /* background-color: white; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px
 }
+
+.work a {
+    color:black;
+    padding: 0;
+    text-decoration: none;
+}
+
+.work a:hover {
+    color: violet;
+}
+
+.work {
+    background-image: url(Assets/02-portfolio-1.jpg);
+}
+
 
 /* CONTACT SECTION  */
 .contact {
@@ -107,11 +139,13 @@ main {
 }
 
 /* Portfolio Images  */
-.run-buddy {
+/* .work {
     background-image: url(Assets/02-portfolio-1.jpg);
-}
+} */
 
 footer {
+    margin: 10px;
+    padding: 10px;
     align-items: center;
     text-align: center;
 }
