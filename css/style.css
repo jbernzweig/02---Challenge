@@ -12,9 +12,18 @@ body {
     line-height: 2;
 }
 /* HEADER MARGIN */
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 /* PARAGRAPH MARGIN  */
-
+p {
+    margin: 0;
+  }
 /* HEADER BASIC DESIGN  */
 header {
     padding: 15px;
@@ -38,7 +47,7 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
 }
-/* NAV A BASIC DESIGN  */
+/* NAV TEXT BASIC DESIGN  */
 nav a {
     text-decoration: none;
     padding: 10px;
@@ -46,30 +55,28 @@ nav a {
     margin-right: 10px;
 }
 
-/* MAIN  */
+/* MAIN BASIC DESIGN*/
 main {
     margin-top: 20px;
     margin-bottom: 45px;
 }
 
 /* HERO BANNER DESIGN  */
-.hero-image {
-    background-image: url(Assets/02-hero-bg.jpg)); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 250px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+.hero-banner {
+    background-image: url(Assets/sunset.jpeg);
   }
 
+.hero-banner {
+    text-align: center;
+}
 /* ABOUT SECTION  */
 .about {
     background-color: aqua;
-    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap; */
-    /* justify-content: flex-start;
-    align-items: flex-end; */
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 10px;
 }
 
 /* WORK SECTION  */
@@ -82,4 +89,29 @@ main {
 .contact {
     background-color: beige;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact a {
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    font-size: large;
+    font-style: normal;
+}
+
+.contact a:hover {
+    color: violet;
+}
+
+/* Portfolio Images  */
+.run-buddy {
+    background-image: url(Assets/02-portfolio-1.jpg);
+}
+
+footer {
+    align-items: center;
+    text-align: center;
 }
