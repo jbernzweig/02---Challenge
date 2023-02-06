@@ -56,6 +56,10 @@ nav a {
     margin-right: 10px;
 }
 
+nav a:hover {
+    color: violet;
+}
+
 /* MAIN BASIC DESIGN*/
 main {
     margin-top: 20px;
@@ -96,12 +100,25 @@ main {
 
 /* WORK SECTION  */
 .work {
-    /* background-color: white; */
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px
+    min-height: 15px;
+    color: black;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
+.flex-item-1 {
+    background-image: url(../Assets/02-portfolio-1.jpg);
+    background-size: cover;
+    /* min-height: 100px;
+    min-width: 100px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
 .work a {
     color:black;
     padding: 0;
@@ -111,11 +128,6 @@ main {
 .work a:hover {
     color: violet;
 }
-
-.work {
-    background-image: url(Assets/02-portfolio-1.jpg);
-}
-
 
 /* CONTACT SECTION  */
 .contact {
@@ -137,11 +149,6 @@ main {
 .contact a:hover {
     color: violet;
 }
-
-/* Portfolio Images  */
-/* .work {
-    background-image: url(Assets/02-portfolio-1.jpg);
-} */
 
 footer {
     margin: 10px;
